@@ -28,12 +28,12 @@ data = {
 df = pd.DataFrame(data)
 # Afișează primele rânduri pentru a verifica datele
 print(df.head())
-# Distribuția valorilor în coloana CHURN
+## Distribuția valorilor în coloana CHURN
 sns.countplot(data=df, x='CHURN')
 plt.show()
-# Statistici descriptive pentru date
+#3 Statistici descriptive pentru date
 print(df.describe())
-# Distribuția clienților în funcție de vârstă și churn
+#####3 Distribuția cliențilorrrrrrr în funcție de vârstă și churn
 sns.histplot(data=df, x='AGE', hue='CHURN', multiple='stack')
 plt.show()
 # Eliminați coloanele neutilizabile (dacă este necesar)
