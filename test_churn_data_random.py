@@ -6,7 +6,7 @@ from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import classification_report, confusion_matrix, accuracy_score
 import seaborn as sns
 import matplotlib.pyplot as plt
-# #Crearea unui settttt deeeee date fictiv pe baza structurii furnizatessssssssssssss
+## #Crearea unui settttt deeeee date fictiv pe baza structurii furnizatessssssssssssss
 np.random.seed(42)  # pentru reproductibilitatedd
 data = {
    'REPORTING_DATE': pd.date_range(start='2023-01-01', periods=1000, freq='D'),
